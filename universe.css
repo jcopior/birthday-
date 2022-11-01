@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap');
+body {
+  background-color:rgb(255, 255, 102);
+  text-align: center;
+  font-family:'Happy Monkey', cursive;
+  color: rgb(0,0,103);
+}
+#profile {
+  width: 90px;
+  border-radius:100%;
+  border: 2px solid rgb(0,0,103);
+}
+h2 {
+  text-shadow:0px 0px 3px white;
+}
+h4, p {
+  background-color:rgb(0,0,103);
+  padding: 5px;
+  color:rgb(255, 255, 102);
+  border-radius: 4px;
+  text-shadow: 0px 0px 1px white;
+}
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.age {
+  margin-top: 12px;
+  margin-bottom: 0px;
+}
+.age2 {
+  margin-top: 5px;
+  margin-bottom: 0px;
+  text-shadow: 0px 0px 1px white;
+}
+.date {
+  margin-top:7px ;
+  font-size: 11px;
+  margin-bottom: 50px;
+}
+.gift1 {
+  margin:10px auto;
+  width: 300px;
+  height: 300px;
+  border: 4px solid darkblue;
+  border-radius: 3px;
+  background-image:url("foryou.jpeg");
+  background-size: cover;
+  cursor: pointer;
+}
+.gift1:hover {
+  background-image: url("https://media.tenor.com/PZckaksfSQIAAAAM/lets-party.gif");
+}
+.age1 {
+  margin-top: 5px;
+  margin-bottom: 0px;
+  text-shadow: 0px 0px 1px white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.gift2 {
+  width: 300px;
+  height: 300px;
+  border: 4px solid darkblue;
+  background-image:url("foryou.jpeg");
+  background-size: cover;
+  margin-top: 10px;
+}
+.gift2:hover {
+  background-image:url("https://media.tenor.com/OON4ZwAtYx0AAAAM/no-money-donald-duck.gif");
+  background-size: cover;
+}
+.gift3 {
+  width: 300px;
+  height: 300px;
+  border: 4px solid darkblue;
+  background-image:url("foryou.jpeg");
+  background-size: cover;
+  margin-top: 10px;
+}
+.gift3:hover {
+  background-image:url("https://media.tenor.com/PBWbo7YrtaIAAAAM/cats-flight-of-friends.gif");
+}
+.audio1 {
+  margin: 10px;
+  width: 300px;
+  height: 160px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0px 0px 5px;
+}
+.last {
+  color: white;
+  background-color: rgb(225,225,102);
+}
+audio {
+  width: 280px;
+}
